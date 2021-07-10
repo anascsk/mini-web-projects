@@ -61,7 +61,7 @@ body{
 
 .circle {
     background-color: #fff;
-    color:var(--line-border-empty);
+    color: black;
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -75,6 +75,7 @@ body{
 
 .circle.active {
     border-color: var(--line-border-fill);
+    color: red;
 } 
 
 
