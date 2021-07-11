@@ -5,4 +5,4 @@ const container = document.querySelector('.container')
 
 
 open.addEventListener('click', () => container.classList.add('show-nav'))
-HTMLFormControlsCollection.addEventListener('click', () => container.classList.remove('show-nav'))
+close.addEventListener('click', () => container.classList.remove('show-nav'))
