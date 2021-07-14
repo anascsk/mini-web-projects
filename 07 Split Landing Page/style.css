@@ -114,7 +114,7 @@ h1 {
 }
 
 .split.right, .split.left, .split.right::before, .split.left::before {
-  transition: all var(--hover-width);
+  transition: all var(--speed) ease-in-out;
 }
 
 .hover-left .left {
@@ -132,4 +132,15 @@ h1 {
 
 .hover-right .left {
     width: var(--other-width)
+}
+@media (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+        top: 30%;
+    }
+
+    .btn {
+        padding: 1.2rem;
+        width: 12rem;
+    }
 }
