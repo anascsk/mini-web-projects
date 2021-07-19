@@ -3,8 +3,8 @@
 
 :root {
 
-    --line-border-fill: #3498db;
-    --line-border-empty: #e0e0e0;
+    --line-border-fill: #3ca5eb;
+    --line-border-empty: #e0e0e0e3;
 }
 
 
@@ -61,7 +61,7 @@ body{
 
 .circle {
     background-color: #fff;
-    color: black;
+    color: rgb(27, 26, 26);
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -75,7 +75,7 @@ body{
 
 .circle.active {
     border-color: var(--line-border-fill);
-    color: red;
+    color: rgb(226, 11, 11);
 } 
 
 
