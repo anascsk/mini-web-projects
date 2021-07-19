@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(180deg, #7d5fff, #e74e89e2, #5470eb);
+    background-image: linear-gradient(180deg, #745ae9, #db4f85e2, #5470eb);
     font-family: 'Karla', sans-serif;
     display: flex;
     margin: 0;
@@ -21,7 +21,7 @@ body{
 }
 
 .search .input {
-    background-color: #fff;
+    background-color: rgb(241, 216, 216);
     border: 0;
     font-size: 18px;
     padding: 15px;
