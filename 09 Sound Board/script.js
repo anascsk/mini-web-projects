@@ -5,4 +5,6 @@ sounds.forEach(sound => {
     btn.classList.add('btn')
 
     btn.innerText = sound
+
+    document.getElementById('buttons').appendChild(btn)
 })
