@@ -26,3 +26,9 @@ body{
     width: 800px;
 
 }
+
+h3 {
+    margin: 30px;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
