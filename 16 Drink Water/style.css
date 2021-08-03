@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
 
-*{
-    box-sizing: border-box;
+:root {
+  --border-color: #144fc6;
+  --fill-color: #6ab3f8;
 }
-body{
-    font-family: 'Karla', sans-serif;
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3494e4;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
 }
