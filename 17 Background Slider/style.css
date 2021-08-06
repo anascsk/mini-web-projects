@@ -15,7 +15,7 @@ body {
   margin: 0;
   background-position: center center;
   background-size: cover;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 body::before {
@@ -46,7 +46,7 @@ body::before {
   position: absolute;
   top: -15vh;
   left: -15vw;
-  transition: 0.4s ease;
+  transition: 0.5s ease;
   z-index: 1;
 }
 
