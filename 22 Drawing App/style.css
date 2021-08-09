@@ -42,3 +42,7 @@ canvas {
     cursor: pointer;
   }
   
+
+  .toolbox > *:last-child {
+    margin-left: auto;
+  }
